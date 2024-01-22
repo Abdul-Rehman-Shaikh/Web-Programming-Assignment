@@ -10,7 +10,7 @@ For Assignment I developed 5 files namely:
 1. **post.php**
 2. **addlike.php**
 3. **addread.php**
-4. **addfollow.php**
+4. **addfollower.php**
 5. **my-style.css**
 
 We explain each file one by one
@@ -32,7 +32,7 @@ It is the back-end page which adds user's read activity to the database.
 When user first clicks **Mark As Read** button from `post.php` page he is re-directed to this page where We first check if user has already read the post before or is it his first time reading. 
 Based on the result appropriate action has been taken with suitable message being displayed to the user on screen. 
 
-## 4. addfollow.php
+## 4. addfollower.php
 It is the back-end page which adds user's follow activity to the database. 
 
 When user first clicks **Follow** button from `post.php` page he is re-directed to this page where We first check if user is already following the post author or not. 
@@ -43,7 +43,7 @@ This page is used for styling `post.php` page.
 
 
 ---
-**Note: `addlike.php` `addread.php` `addfollow.php` pages are for backend processing and have not been displayed to the user from the application.**
+**Note: `addlike.php` `addread.php` `addfollower.php` pages are for backend processing and have not been displayed to the user from the application.**
 
 ### Thank You
 
